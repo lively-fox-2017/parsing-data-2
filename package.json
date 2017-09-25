@@ -1,0 +1,22 @@
+{
+  "name": "parsing-data-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lively-fox-2017/parsing-data-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lively-fox-2017/parsing-data-2/issues"
+  },
+  "homepage": "https://github.com/lively-fox-2017/parsing-data-2#readme",
+  "dependencies": {
+    "js-yaml": "^3.10.0"
+  }
+}
