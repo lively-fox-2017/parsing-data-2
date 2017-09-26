@@ -55,9 +55,7 @@ class PersonParser {
 
   save_as_json(newFile) {
 
-    let myJSON = JSON.stringify(this.people);
-    fs.writeFileSync(newFile, myJSON)
-
+    fs.writeFile(newFile, JSON.stringify(this.people, null, '\t'))
   }
 }
 
